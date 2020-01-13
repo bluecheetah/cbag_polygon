@@ -1,0 +1,28 @@
+# positive rectangle convolve with positive rectangle
+- - [-2, -2, 2, 2]
+  - [-2, -1, 2, 1]
+  - [-4, -3, 4, 3]
+# empty rectangle
+- - [0, 0, 0, 0]
+  - [-1, -1, 1, 1]
+  - [0, 0, 0, 0]
+# invalid rectangle
+- - [1, 1, 0, 0]
+  - [-1, -1, 1, 1]
+  - [1, 1, 0, 0]
+# positive rectangle convolve with rectangle with 0 on one interval
+- - [-2, -2, 2, 2]
+  - [-2, 1, 2, 1]
+  - [-4, -1, 4, 3]
+# positive rectangle convolve with negative rectangle
+- - [-2, -2, 2, 2]
+  - [1, 1, -1, -1]
+  - [-1, -1, 1, 1]
+# positive rectangle convolve with large negative rectangle
+- - [-2, -2, 2, 2]
+  - [10, 10, -10, -10]
+  - [8, 8, -8, -8]
+# positive rectangle convolve with large negative in one dimension
+- - [-2, -2, 2, 2]
+  - [10, -1, -10, 1]
+  - [8, -3, -8, 3]

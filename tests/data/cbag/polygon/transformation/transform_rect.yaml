@@ -1,0 +1,20 @@
+# null transformation
+- - [0, 0, 0]
+  - [0, 0, 2, 6]
+  - [0, 0, 2, 6]
+# MX transformation
+- - [1, 1, -2]
+  - [0, 0, 2, 6]
+  - [-1, -2, 1, 4]
+# R180 transformation
+- - [3, 1, -2]
+  - [0, 0, 2, 6]
+  - [-1, -8, 1, -2]
+# swap-XY transformation
+- - [4, 1, -2]
+  - [0, 0, 6, 2]
+  - [1, -2, 3, 4]
+# transformation of invalid box
+- - [4, 1, -2]
+  - [0, 0, -1, 3]
+  - [0, 0, -1, 3]

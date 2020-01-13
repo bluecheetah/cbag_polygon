@@ -1,0 +1,32 @@
+# square with bottom vertical edge that walk back on itself
+- - [0, 0, 2, 2, 2, 0, 5, 5]
+  - [0, 0, 5, 5]
+# square with right horizontal edge that walk back on itself
+- - [0, 0, 5, 2, 2, 2, 5, 5]
+  - [0, 0, 5, 5]
+# square with top vertical edge that walk back on itself
+- - [0, 0, 5, 5, 2, 2, 2, 5]
+  - [0, 0, 5, 5]
+# square with left horizontal edge that walk back on itself
+- - [0, 0, 5, 5, 0, 2, 2, 2]
+  - [0, 0, 5, 5]
+# self-overlap poly90 with 0 length edge
+- - [1, 1, 1, 5, -2, -2, 4, 6, -2, 3]
+  - [-2, -2, 4, 6]
+# self-intersecting poly90 with 0 length edge
+- - [1, 1, 1, 5, -2, -2, 4, 6, -2, 5]
+  - [-2, -2, 4, 6]
+# self-overlap poly90
+- - [1, 1, 2, 5, -2, -2, 4, 6, -2, 3]
+  - [-2, -2, 4, 6]
+# 0 length edges at various locations
+- - [0, 0, 0, 5, -2, 0]
+  - [-2, 0, 0, 5]
+- - [0, 0, 2, 0, 4, 4]
+  - [0, 0, 4, 4]
+- - [0, 0, 6, 2, 6, 4]
+  - [0, 0, 6, 4]
+- - [0, 0, 6, 2, 8, 2, 10, 4]
+  - [0, 0, 6, 2, 10, 4]
+- - [6, 4, 0, 0, 6, 2]
+  - [0, 0, 6, 4]

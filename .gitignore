@@ -1,0 +1,20 @@
+# General Files
+*~
+*.log
+
+# emacs related files
+TAGS
+
+# C++ related files
+*.so
+
+# Python related files
+__pycache__
+*.pyc
+
+# CMake related files
+_build
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
