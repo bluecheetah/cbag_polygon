@@ -49,6 +49,3 @@ find_package(yaml-cpp REQUIRED CONFIG)
 
 add_library(cbag_polygon INTERFACE)
 target_include_directories(cbag_polygon INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include)
-
-# add tests binaries
-add_subdirectory(tests EXCLUDE_FROM_ALL)
